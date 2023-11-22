@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1140px;
+  margin: 61px 0 0;
+}
+
+.contactsContainer {
+  display: flex;
+  gap: 30px;
+}
+.tel {
+  margin: 0 17px 0 0;
+}

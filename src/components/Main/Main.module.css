@@ -1,0 +1,127 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1140px;
+}
+.headingContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.heading {
+  max-width: 360px;
+  color: #e4e5ea;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 94px 0 0;
+  padding: 0;
+}
+.heading span {
+  background-image: linear-gradient(to right, #fcb045 50%, #ff3f78);
+  color: rgba(229, 230, 235, 0.3);
+  background-clip: text;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  -webkit-background-clip: text;
+}
+.subheading {
+  max-width: 275px;
+  margin: 0;
+  padding: 0;
+  color: #e4e5ea;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.textContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 300px;
+  margin: 94px 0 0;
+}
+.textHeading {
+  grid-column: span 2;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.textHeading span {
+  background: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+}
+.textHeading span:nth-of-type(2) {
+  background: linear-gradient(90deg, #fcb045 50%, #fd891d);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.card {
+  max-width: 135px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: right;
+}
+.cardHeading {
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+}
+.cardText {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.button {
+  grid-column: span 2;
+  max-width: 262px;
+  height: 61px;
+  background: #4077f3;
+  border: none;
+  justify-self: end;
+  color: #e4e5ea;
+  margin: 0;
+  padding: 5px 34px;
+  transition: all 0.3s ease;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.button:hover {
+  background: #0d4fe7;
+  cursor: pointer;
+}

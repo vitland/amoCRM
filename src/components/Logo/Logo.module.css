@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 14px;
+}
+
+.logoContainer{
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.subtitle {
+  color: #e4e5ea;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  max-width: 165px;
+  margin: 0;
+  padding: 0;
+}
