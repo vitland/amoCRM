@@ -9,12 +9,14 @@ const Header = () => {
   return (
     <div className={styles.container}>
       <Logo />
-      <Navigation/>
+      <Navigation />
       <div className={styles.contactsContainer}>
-        <span className={styles.tel}>+7 555 555-55-55</span>
-        <Telegram />
-        <Viber />
-        <Whatsup />
+        <span>+7 555 555-55-55</span>
+        <div className={styles.iconsContainer}>
+          <Telegram />
+          <Viber />
+          <Whatsup />
+        </div>
       </div>
     </div>
   );

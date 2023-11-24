@@ -5,10 +5,10 @@
   gap: 14px;
 }
 
-.logoContainer{
-    display: flex;
-    justify-content: flex-start;
-    gap: 8px;
+.logoContainer {
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
 }
 .subtitle {
   color: #e4e5ea;
@@ -20,4 +20,10 @@
   max-width: 165px;
   margin: 0;
   padding: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    display: none;
+  }
 }

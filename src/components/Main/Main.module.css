@@ -94,6 +94,8 @@
   line-height: normal;
   letter-spacing: 0.9px;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
 }
 .cardText {
   font-family: Montserrat;
@@ -124,4 +126,80 @@
 .button:hover {
   background: #0d4fe7;
   cursor: pointer;
+}
+@media screen and (max-width: 650px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .headingContainer {
+    align-items: center;
+    text-align: center;
+  }
+  .textContainer {
+    margin-top: 40px;
+    max-width: 600px;
+  }
+  .button {
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .headingContainer {
+    align-items: flex-start;
+    text-align: left;
+    gap: 15px;
+  }
+  .heading {
+    font-size: 36px;
+  }
+
+  .heading span {
+    font-size: 36px;
+  }
+
+  .textContainer {
+    margin-top: 45px;
+    max-width: 600px;
+    gap: 14px;
+  }
+  .textHeading {
+    text-align: left;
+    margin-bottom: 6px;
+  }
+  .card {
+    flex-direction: row;
+  }
+  .cardHeading {
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.65px;
+    text-transform: uppercase;
+    display: flex;
+    gap: 5px;
+  }
+  .cardHeading::before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 1px;
+    align-self: center;
+    background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+  }
+  .cardText {
+    display: none;
+  }
+
+  .button {
+    display: none;
+  }
 }

@@ -5,8 +5,8 @@ import styles from "./Background.module.css";
 const Background = () => {
   return (
     <div className={styles.content}>
-      <PurpleBall className={styles.purpleBall} />
       <div className={styles.purpleLight}></div>
+      <PurpleBall className={styles.purpleBall} />
       <div className={styles.redLight}></div>
       <RedBall className={styles.redBallBig} />
       <RedBall className={styles.redBallSmall} />

@@ -17,3 +17,20 @@
 .container a:hover {
   color: #97989b;
 }
+
+@media screen and (max-width: 1000px) {
+  .container {
+    margin: 0;
+    gap: 10px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .container a {
+    font-size: 12px;
+  }
+  .container a:last-of-type {
+    display: none;
+  }
+}

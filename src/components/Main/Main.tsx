@@ -17,19 +17,19 @@ const Main = () => {
           Вместе с <span>бесплатной</span> <span>консультацией</span> мы дарим:
         </h2>
         <div className={styles.card}>
-          <span className={styles.cardHeading}>Виджеты</span>
+          <h3 className={styles.cardHeading}>Виджеты</h3>
           <span className={styles.cardText}>30 готовых решений</span>
         </div>
         <div className={styles.card}>
-          <span className={styles.cardHeading}>Dashboard</span>
+          <h3 className={styles.cardHeading}>Dashboard</h3>
           <span className={styles.cardText}>с показателями вашего бизнеса</span>
         </div>
         <div className={styles.card}>
-          <span className={styles.cardHeading}>Skype Аудит</span>
+          <h3 className={styles.cardHeading}>Skype Аудит</h3>
           <span className={styles.cardText}>отдела продажи CRM системы</span>
         </div>
         <div className={styles.card}>
-          <span className={styles.cardHeading}>35 дней</span>
+          <h3 className={styles.cardHeading}>35 дней</h3>
           <span className={styles.cardText}>использования CRM</span>
         </div>
         <button className={styles.button}>Получить консультацию</button>

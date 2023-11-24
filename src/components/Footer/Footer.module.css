@@ -1,0 +1,121 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 98px;
+  margin: 124px 0 20px;
+  width: 100%;
+  max-width: 1140px;
+}
+
+.heading {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  color: #656566;
+  margin: 0;
+  padding: 0;
+}
+
+.text {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: #e4e5ea;
+  max-width: 220px;
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  max-width: 200px;
+}
+
+.aboutContainer h2 {
+  margin-bottom: 10px;
+}
+
+.menuContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  max-width: 500px;
+}
+
+.menuListContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 52px;
+}
+
+.menuList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.contactsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+}
+.messengersList {
+  display: flex;
+  gap: 10px;
+}
+.contactsContainer small {
+  margin-top: 50px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 240px;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .container {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .menuListContainer {
+    gap: 48px;
+  }
+
+  .heading {
+    font-size: 12px;
+  }
+  
+  .text {
+    font-size: 14px;
+  }
+  .contactsContainer {
+    align-items: flex-start;
+    text-align: center;
+  }
+  .contactsContainer small {
+    align-self: flex-start;
+    text-align: left;
+  }
+}
